@@ -1,16 +1,27 @@
-# budgeta
-
-A new Flutter project.
+# CentralPay
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Before you begin, make sure you have the following installed:
+* [Flutter SDK](https://docs.flutter.dev/get-started/install) 
+* Java Development Kit (JDK)
+* Android Studio / VScode (for simulators and build tools)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Setup & Installation
+
+Follow these steps sequentially to set up the project and generate the required files.
+
+1. **Clone the repository:**
+   git clone https://github.com/samehfathyy/CentralPay-Mobile-App
+
+2. **run the following commands in the project terminal**
+    flutter pub get
+    dart run build_runner build --delete-conflicting-outputs
+    dart run flutter_launcher_icons
+
+3. **Running the App**
+    flutter run
